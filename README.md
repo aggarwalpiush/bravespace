@@ -13,6 +13,8 @@ The main motivation to build this tool to overcome lack understanding of what ty
 
 Bravespace frontend will let you upload the meme which will pass to backend server. On backend server, meme is segregated into image and text. We train a hate meme classifier on the hate meme dataset provided by facebook (Kiela, Douwe et al. “The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes.” ArXiv abs/2005.04790 (2020): n. pag.) with accuracy of 0.70 on the provided test set. We first extract feature of image using vgg16 network and fasttext model and apply our trained classifier to get the class of the meme. If meme is classified as hate-speeech, we find the region of image and tokens of the text responsible for the classification. we apply yolo-v3 object detection model to segment the objects available in the image as well as nltk tokenizer to tokenize the text. We calculate the hate score of the image by iteratively masking extracted objects and tokens to the image. The difference of hate score with that of original image classification score provide the influence of the objects and text contributed to hate speech. 
 
+Every hateful meme will be further curated and can be annotated into further category of hate-speech such as sexist, racist and religious by moderators or user of the tools. In the end moderators will get statistics of the available hateness, responsible regions and its types on the uploaded memes 
+
 This tool is very easy to reproduce by adopting following steps:
 
 ### copy the github repository into your local host environment having GPU support with cuda 10.1 nvidia driver.

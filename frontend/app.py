@@ -1,6 +1,5 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from annotated_text import annotated_text
 import pandas as pd
 import numpy as np
 import json

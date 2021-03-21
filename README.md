@@ -15,7 +15,7 @@ Bravespace frontend will let you upload the meme which will pass to backend serv
 
 This tool is very easy to reproduce by adopting following steps:
 
-# copy the github repository into your local host environment having GPU support with cuda 10.1 nvidia driver.
+### copy the github repository into your local host environment having GPU support with cuda 10.1 nvidia driver.
 
 `git clone https://github.com/aggarwalpiush/bravespace.git`
 

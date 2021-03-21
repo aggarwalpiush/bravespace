@@ -5,7 +5,7 @@
 - Cuda 10.1
 
 
-- pip -r requirements.txt
+- pip install -r requirements.txt
 
 - downloads yolov3 weights from below link:
 

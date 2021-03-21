@@ -1,6 +1,6 @@
 # Bravespace
 
-It is curation and annotation tool for designing better hate-meme detection systems. It solve following crucial problems:
+It is interpretable hate-meme detection systems based curation and annotation tool for designing better hate-meme detection systems. It solve following crucial problems:
 
 - Filteration of potential hatememe using interpretable hate-meme detection system.
 - Speedify the curation and further categories annotation generation to fine-tune existing hate-meme detection.

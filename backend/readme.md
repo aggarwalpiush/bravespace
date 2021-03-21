@@ -15,4 +15,9 @@
 
 [LINK: https://uni-duisburg-essen.sciebo.de/s/24YzpUPhtLj25rC/download]
 
+- Run the following command
+`python server.py`
+
+Note down the ngrok tunnel ip address.
+
   
